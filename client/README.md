@@ -1,16 +1,57 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# E-Commerce MERN Frontend
 
-Currently, two official plugins are available:
+This is a modern e-commerce frontend built with React, Vite, and Tailwind CSS. It features product browsing, cart, wishlist, checkout, authentication, and order history.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+- Product listing with search, filter, and wishlist
+- Product details with add to cart/wishlist
+- Shopping cart with quantity management
+- Checkout with shipping form and order summary
+- Order history and profile pages
+- Toast notifications for user actions
+- Responsive design with Tailwind CSS
 
-## React Compiler
+## Getting Started
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Prerequisites
+- Node.js (v16 or higher recommended)
+- npm or yarn
 
-## Expanding the ESLint configuration
+### Installation
+1. Clone the repository:
+	```sh
+	git clone https://github.com/Malik-AK47/E-Commerce.git
+	cd E-Commerce/client
+	```
+2. Install dependencies:
+	```sh
+	npm install
+	# or
+	yarn
+	```
+3. Start the development server:
+	```sh
+	npm run dev
+	# or
+	yarn dev
+	```
+4. Open [http://localhost:5173](http://localhost:5173) in your browser.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Folder Structure
+```
+client/
+  src/
+	 components/    # Navbar, Footer, SkeletonGrid, etc.
+	 data/          # Static product data
+	 pages/         # Home, Cart, Checkout, Wishlist, etc.
+	 App.jsx        # Main app component
+	 ...
+```
+
+## Customization
+- Update `src/data/products.js` to change product data
+- Update styles in `tailwind.config.js` and `index.css`
+
+## License
+This project is for educational/demo purposes. Feel free to use and modify.
