@@ -127,7 +127,3 @@ If you want to contribute, fork the repository and open a pull request.
 ## License
 
 This project does not include a license file. Add a license if you plan to open-source it.
-
----
-
-If you'd like, I can now add a GitHub remote and push this commit for you — provide the remote URL (HTTPS or SSH) and whether you prefer the default branch be `main` or `master`. If you want me to create the GitHub repo too, you'll need to create it in GitHub or provide credentials/token (I cannot create it for you without API access).
