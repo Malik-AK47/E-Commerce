@@ -123,7 +123,3 @@ No automated tests included. To test manually:
 ## Contributing
 
 If you want to contribute, fork the repository and open a pull request.
-
-## License
-
-This project does not include a license file. Add a license if you plan to open-source it.
